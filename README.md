@@ -1,16 +1,14 @@
 # lbpcascade_animeface
 
-The face detector for anime/manga using OpenCV.
+The face detector for anime/manga using OpenCV in C\#.
 
 Original release since 2011 at [OpenCVによるアニメ顔検出ならlbpcascade_animeface.xml](http://ultraist.hatenablog.com/entry/20110718/1310965532) (in Japanese)
 
 ## Usage
 
-Download and place the cascade file into your project directory.
+Build the project and follow the UserInterface instruction.
 
-    wget https://raw.githubusercontent.com/nagadomi/lbpcascade_animeface/master/lbpcascade_animeface.xml
-
-### Python Example
+### C\# Example
 
 ```python
 import cv2
@@ -48,4 +46,4 @@ Run
 
     python detect.py imas.jpg
 
-![result](https://raw.githubusercontent.com/nagadomi/lbpcascade_animeface/master/figure/imas.png)
+![result](https://raw.githubusercontent.com/inlmouse/lbpcascade_animeface/AnimeFace/AnimeFace/bin/x86/Debug/output/Detected_LoveLive.jpg)
