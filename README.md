@@ -1,4 +1,4 @@
-# lbpcascade_animeface.NET
+# lbpcascade_animeface.Net
 
 The face detector for anime/manga using OpenCV in C\#.
 
