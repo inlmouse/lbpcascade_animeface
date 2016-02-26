@@ -1,0 +1,8 @@
+C:\Users\Glass\Documents\GitHub\lbpcascade_animeface\AnimeFace\AnimeFace\bin\x86\Debug\AnimeFace.exe
+C:\Users\Glass\Documents\GitHub\lbpcascade_animeface\AnimeFace\AnimeFace\bin\x86\Debug\AnimeFace.pdb
+C:\Users\Glass\Documents\GitHub\lbpcascade_animeface\AnimeFace\AnimeFace\obj\x86\Debug\AnimeFace.MainForm.resources
+C:\Users\Glass\Documents\GitHub\lbpcascade_animeface\AnimeFace\AnimeFace\obj\x86\Debug\AnimeFace.Properties.Resources.resources
+C:\Users\Glass\Documents\GitHub\lbpcascade_animeface\AnimeFace\AnimeFace\obj\x86\Debug\AnimeFace.csproj.GenerateResource.Cache
+C:\Users\Glass\Documents\GitHub\lbpcascade_animeface\AnimeFace\AnimeFace\obj\x86\Debug\AnimeFace.exe
+C:\Users\Glass\Documents\GitHub\lbpcascade_animeface\AnimeFace\AnimeFace\obj\x86\Debug\AnimeFace.pdb
+C:\Users\Glass\Documents\GitHub\lbpcascade_animeface\AnimeFace\AnimeFace\obj\x86\Debug\AnimeFace.csprojResolveAssemblyReference.cache
