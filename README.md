@@ -6,7 +6,7 @@ Original release since 2011 at [OpenCVによるアニメ顔検出ならlbpcascad
 
 ## Usage
 
-Build the project and follow the UserInterface instruction.
+Build the project(x86 platform  is required) and follow the UserInterface instruction.
 
 ### C\# Example
 
