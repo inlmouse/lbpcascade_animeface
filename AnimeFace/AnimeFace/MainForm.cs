@@ -16,29 +16,7 @@ namespace AnimeFace
             InitializeComponent();
         }
 
-        private static Image<Bgr, byte> FaceDetection(Image<Bgr, byte> oriImage, double ScaleFactor, int MinNeibors, out long times)
-        {
-            List<Rectangle> Faces = new List<Rectangle>();
-            CascadeClassifier lbp = new CascadeClassifier("lbpcascade_animeface.xml");
-            Stopwatch watch;
-            watch = Stopwatch.StartNew();
-            using (Image<Gray, byte> cpuImage = new Image<Gray, byte>(oriImage.Bitmap))
-            {
-                Rectangle[] facesDetected = lbp.DetectMultiScale(
-                    cpuImage,
-                    ScaleFactor,
-                    MinNeibors,
-                    new Size(24, 24));
-                Faces.AddRange(facesDetected);
-            }
-            watch.Stop();
-            times = watch.ElapsedMilliseconds;
-            foreach (var face in Faces)
-            {
-                oriImage.Draw(face, new Bgr(Color.DeepSkyBlue), 3);
-            }
-            return oriImage;
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -62,7 +40,7 @@ namespace AnimeFace
                 Bitmap bmp = new Bitmap(textBox1.Text);
                 Image<Bgr, byte> image = new Image<Bgr, byte>(bmp);
                 long times;
-                image = FaceDetection(image, 1.1, 5, out times);
+                image = Detect.FaceDetection(image, 1.1, 5, out times);
                 pictureBox1.Image = image.Bitmap;
             }
             catch (Exception)
@@ -98,6 +76,12 @@ namespace AnimeFace
             {
                 MessageBox.Show("A figure is required to be indicated.");
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            VideoDetection videoDetection=new VideoDetection();
+            videoDetection.Show();
         }
     }
 }
