@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nv_core.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_core_matrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_core_util.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_face.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_face_analyze.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_face_detect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_face_detect_internal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_face_feature.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_face_mlp_static.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ip_euclidean_color.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ip_gaussian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ip_gray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ip_integral.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ip_laplacian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ml.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ml_gaussian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ml_kmeans.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_ml_mlp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_num.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_num_cov.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_num_distance.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_num_eigen.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_num_lapack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_num_matrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_num_vector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_portable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nv_core_matrix.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_core_util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_cov.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_distance.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_eigen.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_euclidean_color.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_face_analyze.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_face_detect.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_face_haarlike.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_face_mlp_static.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_gaussian.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_gaussian5x5.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_gray.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_gray_cpu.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_integral.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_kmeans.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_laplacian.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_matrix.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_mlp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_vector.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
